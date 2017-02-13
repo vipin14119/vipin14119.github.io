@@ -98,26 +98,90 @@
         <a href="#portfolio" class="btn btn-lg btn-outline page-scroll">See My Work</a>
         <!--<br>-->
     </div>
-    <!--<div class="container">-->
-    <!--<div class="row">-->
-    <!--<div class="col-lg-12 text-center">-->
-    <!--<img class="img-responsive img-circle" src="img/vipin.jpg" alt="">-->
-    <!--<div class="intro-text">-->
-    <!--<span class="name">Vipin Chaudhary</span>-->
-    <!--<hr class="star-light">-->
-    <!--<span class="skills">Competitive Programmer - Web Developer - Android Dev - IOS Dev - CV Enthusiast - Open Source Lover </span>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
 </div>
 
+<!-- Internship Grid Section -->
+
+<section id="internship">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>Internships</h2>
+                <hr class="star-primary">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/cake.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Portfolio Grid Section -->
+
 <section id="portfolio">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Portfolio</h2>
+                <h2>Projects</h2>
                 <hr class="star-primary">
             </div>
         </div>
@@ -273,7 +337,7 @@
     </div>
 </section>
 
-Footer
+<!--Footer-->
 <footer class="text-center">
     <div class="footer-above">
         <div class="container">
@@ -619,10 +683,12 @@ Footer
         var color2 = colorArray[parseInt(Math.random() * colorArray.length)];
 //        $('#particles-js').animate({'background': 'linear-gradient(to top, '+ color1+', '+color2+')'}, 'slow');
         $('#particles-js').css('background', 'linear-gradient(to top, '+ color1+', '+color2+')');
+        $('#particles-js').css('transition-duration', '1s');
+        $('#particles-js').css('animation-duration', '1s');
     }
     window.setInterval(function () {
         changeParticlesBg();
-    }, 10000);
+    }, 5000);
     //    headerHeight();
     function headerHeight() {
         var header = $('header');
