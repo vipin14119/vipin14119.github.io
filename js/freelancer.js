@@ -54,3 +54,17 @@
     });
 
 })(jQuery); // End of use strict
+
+colorArray = [
+    '#fa4151',
+    '#fa52e1',
+    '#18BC9C',
+    '#fa6c2a',
+    '#8509fa',
+    '#2554fa',
+    '#22befa',
+    '#0bfa76',
+    '#befa2b',
+    '#fa4151',
+    '#fa52e1'
+];
