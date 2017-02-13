@@ -86,10 +86,7 @@ hr.star-primary:after {
     height: 100vh;
     /*background-color: #18BC9C;*/
     color: white;
-    -webkit-transition: background-color 2s ease;
-    -moz-transition: background-color 2s ease;
-    -o-transition: background-color 2s ease;
-    transition: background-color 2s ease;
+    transition: background 1s ease-in-out;
 }
 .combo1{
     background: linear-gradient(to top, #fa52e1, #fa4151);
