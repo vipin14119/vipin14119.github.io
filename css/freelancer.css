@@ -80,10 +80,12 @@ hr.star-primary:after {
 }
 
 #particles-js {
-    position: absolute;
+    /*position: absolute;*/
+    padding-top: 20px;
     width: 100%;
-    height: 100%;
-    background-color: #18BC9C;
+    height: 100vh;
+    /*background-color: #18BC9C;*/
+    background: linear-gradient(to top, #18BC9C, #fa8300);
     color: white;
 }
 
@@ -130,12 +132,21 @@ hr.star-primary:after {
     font-weight: 600;
 
 }
+#particles-js .content .btn {
+    top: 750px;
+    left: 0;
+    right: 0;
+    width: 150px;
+    margin: 0 auto;
+    position: absolute;
+
+}
 
 header {
     text-align: center;
     background-color: #18BC9C;
     color: black;
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     height: 100%;
     /*background-image: url("");*/
@@ -185,9 +196,11 @@ header .intro-text .skills {
         font-size: 1.75em;
     }
 }
-
+.navbar-dark{
+    background-color: #233140;
+}
 .navbar-custom {
-    background: #2C3E50;
+    background: rgb(33, 46, 67);
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
