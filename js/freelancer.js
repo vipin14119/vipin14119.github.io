@@ -5,14 +5,6 @@
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
 
-    // function collapseNavbar() {
-    //
-    //
-    // }
-    //
-    // $(window).scroll(collapseNavbar);
-    // $(document).ready(collapseNavbar);
-
 
     $('.page-scroll a').bind('click', function (event) {
         alert("yes");
@@ -51,20 +43,12 @@
         }).on("blur", ".floating-label-form-group", function () {
             $(this).removeClass("floating-label-form-group-with-focus");
         });
+
     });
 
 })(jQuery); // End of use strict
 
-colorArray = [
-    '#fa4151',
-    '#fa52e1',
-    '#18BC9C',
-    '#fa6c2a',
-    '#8509fa',
-    '#2554fa',
-    '#22befa',
-    '#0bfa76',
-    '#befa2b',
-    '#fa4151',
-    '#fa52e1'
-];
+// window.setInterval(function () {
+//     alert("hi");
+// }, 2000);
+

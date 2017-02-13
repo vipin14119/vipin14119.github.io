@@ -599,6 +599,30 @@ Footer
 <!-- Theme JavaScript -->
 <script src="js/freelancer.min.js"></script>
 <script>
+    var colorArray = [
+        '#fa4151',
+        '#fa52e1',
+        '#18BC9C',
+        '#fa6c2a',
+        '#8509fa',
+        '#2554fa',
+        '#22befa',
+        '#0bfa76',
+        '#befa2b',
+        '#fa4151',
+        '#fa52e1'
+    ];
+
+    function changeParticlesBg(){
+
+        var color1 = colorArray[parseInt(Math.random() * colorArray.length)];
+        var color2 = colorArray[parseInt(Math.random() * colorArray.length)];
+
+        $('#particles-js').css('background', 'linear-gradient(to top, '+ color1+', '+color2+')');
+    }
+    window.setInterval(function () {
+        changeParticlesBg();
+    }, 5000);
     //    headerHeight();
     function headerHeight() {
         var header = $('header');
