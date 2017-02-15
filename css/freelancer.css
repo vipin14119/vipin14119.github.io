@@ -293,6 +293,21 @@ section.success {
 
 /* Internship Section CSS */
 
+.internship-image{
+    min-height: 300px;
+    background-color: #0bfa76;
+    width: 100%;
+}
+.circle{
+    left: 25%;
+    top: 25%;
+    position: absolute;
+    min-height: 150px;
+    width: 150px;
+    background-color: red;
+    margin: auto;
+
+}
 #internship .internship-item {
     margin: 0 0 15px;
     right: 0;
