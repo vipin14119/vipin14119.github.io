@@ -367,6 +367,8 @@ section.success {
 
 #internship .internship-item .portfolio-link .caption .caption-content .internship-name {
     font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #internship .internship-item .portfolio-link .caption .caption-content i {
@@ -424,9 +426,15 @@ section.success {
     height: 20px;
     font-size: 20px;
     text-align: center;
-    top: 50%;
-    margin-top: -12px;
+    top: 30%;
+    margin-top: -85px;
     color: white;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content .project-name {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
