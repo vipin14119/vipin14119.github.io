@@ -88,34 +88,44 @@ hr.star-primary:after {
     color: white;
     transition: background 1s ease-in-out;
 }
-.combo1{
+
+.combo1 {
     background: linear-gradient(to top, #fa52e1, #fa4151);
 }
-.combo2{
+
+.combo2 {
     background: linear-gradient(to top, #18BC9C, #fa6c2a);
 }
-.combo4{
+
+.combo4 {
     background: linear-gradient(to top, #18BC9C, #8509fa);
 }
-.combo5{
+
+.combo5 {
     background: linear-gradient(to top, #18BC9C, #2554fa);
 }
-.combo6{
+
+.combo6 {
     background: linear-gradient(to top, #18BC9C, #22befa);
 }
-.combo7{
+
+.combo7 {
     background: linear-gradient(to top, #18BC9C, #0bfa76);
 }
-.combo8{
+
+.combo8 {
     background: linear-gradient(to top, #18BC9C, #befa2b);
 }
-.combo9{
+
+.combo9 {
     background: linear-gradient(to top, #18BC9C, #fa4151);
 }
-.combo10{
+
+.combo10 {
     background: linear-gradient(to top, #18BC9C, #fa52e1);
 }
-.combo12{
+
+.combo12 {
     background: linear-gradient(to top, #fa52e1, #18BC9C);
 }
 
@@ -162,6 +172,7 @@ hr.star-primary:after {
     font-weight: 600;
 
 }
+
 #particles-js .content .btn {
     top: 750px;
     left: 0;
@@ -172,9 +183,68 @@ hr.star-primary:after {
 
 }
 
-.navbar-dark{
+@media only screen and (max-width: 768px) {
+    /*#particles-js .container {*/
+    /*padding-top: 200px;*/
+    /*padding-bottom: 100px;*/
+    /*}*/
+    #particles-js .img-circle {
+        top: 80px !important;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        position: absolute;
+        max-height: 200px;
+    }
+
+    #particles-js .content .owner {
+        /*background-color: #1a242f;*/
+        top: 300px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        position: absolute;
+
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 40px;
+
+    }
+
+    #particles-js .content .star {
+        top: 370px;
+        position: absolute;
+
+    }
+
+    #particles-js .content .hobby {
+        top: 450px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        position: absolute;
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+
+    #particles-js .content .btn {
+        top: 550px;
+        left: 0;
+        right: 0;
+        width: 180px;
+        margin: 0 auto;
+        position: absolute;
+
+    }
+
+}
+
+.navbar-dark {
     background-color: #233140;
 }
+
 .navbar-custom {
     background: rgb(33, 46, 67);
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -290,15 +360,15 @@ section.success {
     }
 }
 
-
 /* Internship Section CSS */
 
-.internship-image{
+.internship-image {
     min-height: 300px;
     background-color: #0bfa76;
     width: 100%;
 }
-.circle{
+
+.circle {
     left: 25%;
     top: 25%;
     position: absolute;
@@ -308,6 +378,7 @@ section.success {
     margin: auto;
 
 }
+
 #internship .internship-item {
     margin: 0 0 15px;
     right: 0;
@@ -320,22 +391,27 @@ section.success {
     margin: 0 auto;
 }
 
-.aptence-color{
+.aptence-color {
     background: rgba(50, 197, 210, 0.76);
 }
-.aptence-app-color{
+
+.aptence-app-color {
     background: rgba(255, 128, 128, 0.76);
 }
-.hypothizer-color{
+
+.hypothizer-color {
     background: rgba(245, 125, 0, 0.76);
 }
-.ht-color{
+
+.ht-color {
     background: rgba(0, 92, 169, 0.76);
 }
-.greenesto-color{
+
+.greenesto-color {
     background: rgba(0, 0, 0, 0.76);
 }
-.archimedis-color{
+
+.archimedis-color {
     background: rgba(81, 21, 11, 0.76);
 }
 
@@ -389,7 +465,6 @@ section.success {
         margin: 0 0 30px;
     }
 }
-
 
 /* Portfolio Section CSS */
 
